@@ -33,7 +33,7 @@ class Users with ChangeNotifier {
                 meds: user.meds,
                 id: user.id,
                 name: user.name,
-                email: user.email,
+                age: user.age,
                 avatarUrl: user.avatarUrl,
               ));
     } else {
@@ -44,7 +44,7 @@ class Users with ChangeNotifier {
                 meds: {},
                 id: id,
                 name: user.name,
-                email: user.email,
+                age: user.age,
                 avatarUrl: user.avatarUrl,
               ));
     }

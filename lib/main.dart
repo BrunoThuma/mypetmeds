@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (ctx) => Users(),
       child: MaterialApp(
-        title: 'My Pets',
+        title: 'MyetMeds',
         theme: ThemeData(
           primarySwatch: Colors.blue,
           // This makes the visual density adapt to the platform that you run

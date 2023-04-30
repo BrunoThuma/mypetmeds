@@ -21,7 +21,7 @@ var USERS_TESTE = {
     },
     id: '1',
     name: 'Tonho da Lua',
-    email: 'tonho@lua.com.br',
+    age: '11',
     avatarUrl: 'https://cdn.pixabay.com/photo/2016/11/01/21/11/avatar-1789663_960_720.png',
   ),
   '2': const User(
@@ -43,7 +43,7 @@ var USERS_TESTE = {
     },
     id: '2',
     name: 'Jamanta',
-    email: 'jamanta@naosabe.com.br',
+    age: '2',
     avatarUrl: 'https://cdn.pixabay.com/photo/2018/08/28/12/41/avatar-3637425_960_720.png',
   ),
   '3': const User(
@@ -65,7 +65,7 @@ var USERS_TESTE = {
     },
     id: '3',
     name: 'Paola Bracho',
-    email: 'usurpadora@televisa.com.br',
+    age: '4',
     avatarUrl: 'https://cdn.pixabay.com/photo/2017/03/01/22/18/avatar-2109804_960_720.png',
   ),
 };

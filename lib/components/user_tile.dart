@@ -5,7 +5,6 @@ import 'package:mypetmeds2/views/medications_list.dart';
 import 'package:mypetmeds2/provider/users.dart';
 import 'package:mypetmeds2/routes/app_routes.dart';
 import 'package:provider/provider.dart';
-import 'package:mypetmeds2/data/users_teste.dart';
 
 class UserTile extends StatelessWidget {
   final User user;
@@ -19,7 +18,7 @@ class UserTile extends StatelessWidget {
     return ListTile(
       leading: avatar,
       title: Text(user.name),
-      subtitle: Text(user.email),
+      subtitle: Text(user.age),
       trailing: Container(
         width: 100,
         child: Row(

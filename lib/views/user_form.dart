@@ -14,7 +14,7 @@ class UserForm extends StatelessWidget {
     if (user != null) {
       _formData['id'] = user.id;
       _formData['name'] = user.name;
-      _formData['email'] = user.email;
+      _formData['age'] = user.age;
       _formData['avatarUrl'] = user.avatarUrl;
     } else {
       print("User is null, showing empty form");
@@ -41,7 +41,7 @@ class UserForm extends StatelessWidget {
                       meds: {'9' : Medication(id: '9', name: "Teste", dosage: "25mg", frequency: "1 every 1", startDate: "aaaa", endDate: "aaaaaaa")},
                       id: _formData['id'] ?? Random(420).toString(),
                       name: _formData['name']!,
-                      email: _formData['email']!,
+                      age: _formData['age']!,
                       avatarUrl: _formData['avatarUrl']!,
                     ),
                   );
@@ -62,7 +62,7 @@ class UserForm extends StatelessWidget {
                 children: <Widget>[
                   TextFormField(
                     initialValue: _formData['name'],
-                    decoration: InputDecoration(labelText: 'Nome'),
+                    decoration: InputDecoration(labelText: 'Name'),
                     validator: (value) {
                       if (value == null || value.isEmpty)
                         return 'Nome inválido!';
@@ -72,13 +72,13 @@ class UserForm extends StatelessWidget {
                     onSaved: (value) => _formData['name'] = value ?? "",
                   ),
                   TextFormField(
-                    initialValue: _formData['email'],
-                    decoration: InputDecoration(labelText: 'E-mail'),
-                    onSaved: (value) => _formData['email'] = value ?? "",
+                    initialValue: _formData['age'],
+                    decoration: InputDecoration(labelText: 'Age'),
+                    onSaved: (value) => _formData['Age'] = value ?? "",
                   ),
                   TextFormField(
                     initialValue: _formData['avatarUrl'],
-                    decoration: InputDecoration(labelText: 'URL do Avatar'),
+                    decoration: InputDecoration(labelText: 'URL to profile image'),
                     onSaved: (value) => _formData['avatarUrl'] = value ?? "",
                   ),
                 ],
