@@ -74,7 +74,7 @@ class UserForm extends StatelessWidget {
                   TextFormField(
                     initialValue: _formData['age'],
                     decoration: InputDecoration(labelText: 'Age'),
-                    onSaved: (value) => _formData['Age'] = value ?? "",
+                    onSaved: (value) => _formData['age'] = value ?? "",
                   ),
                   TextFormField(
                     initialValue: _formData['avatarUrl'],
