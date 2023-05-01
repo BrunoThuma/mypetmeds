@@ -20,9 +20,9 @@ var USERS_TESTE = {
         endDate: 'may 1st 2023'),
     },
     id: '1',
-    name: 'Tonho da Lua',
+    name: 'Cachorro Aifolou',
     age: '11',
-    avatarUrl: 'https://cdn.pixabay.com/photo/2016/11/01/21/11/avatar-1789663_960_720.png',
+    avatarUrl: 'https://preview.redd.it/pa1fzn4wmnr71.jpg?width=186&format=pjpg&auto=webp&s=bec580c31b2e4edcd75b0c4165763e14dff65085',
   ),
   '2': const User(
     meds: {
@@ -42,9 +42,9 @@ var USERS_TESTE = {
         endDate: 'may 1st 2023'),
     },
     id: '2',
-    name: 'Jamanta',
-    age: '2',
-    avatarUrl: 'https://cdn.pixabay.com/photo/2018/08/28/12/41/avatar-3637425_960_720.png',
+    name: 'Bart',
+    age: '8',
+    avatarUrl: 'https://www.petlove.com.br/images/breeds/193080/profile/original/border_collie-p.jpg?1532538415',
   ),
   '3': const User(
     meds: {
@@ -64,9 +64,9 @@ var USERS_TESTE = {
         endDate: 'may 1st 2023'),
     },
     id: '3',
-    name: 'Paola Bracho',
-    age: '4',
-    avatarUrl: 'https://cdn.pixabay.com/photo/2017/03/01/22/18/avatar-2109804_960_720.png',
+    name: 'Jhow',
+    age: '2',
+    avatarUrl: 'https://www.adoropets.com.br/wp-content/uploads/2018/04/personalidade-kuvasz.jpg',
   ),
 };
 
